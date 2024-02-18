@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptado Jorge Cruz</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+<!--poner logo en header -->
+    <header>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="encriptar">
+                <textarea 
+                   name="texto" 
+                   id="texto" 
+                   cols="30" 
+                   rows="10" 
+                   placeholder="Ingresa el texto aquí">
+                </textarea>
+               </div>
+               <div class="terminos">
+                   <p>Solo letras minusculas</p>
+               </div>
+               <div class="botones">
+                   <button class="btn-encriptar" type="button" onclick="encriptar()"> Encriptar</button>
+                   <input type="button" class="btn-desencriptar" value="Desencriptado" onclick="desencriptar()">
+               </div>
+           
+            <div class="encriptado">
+               <img src="Img/muñeco.png" alt="" id="muñeco">
+               <div class="mensaje-encriptado" id="mensaje-encriptado">
+                   <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2>
+                   <p id="parrafo">Ingresa el texto que deseas encriptado o desencriptar</p>
+                   <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>-->
+               </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
